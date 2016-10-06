@@ -1,0 +1,19 @@
+{
+  "name": "wif-decorruptor",
+  "version": "0.0.1",
+  "description": "A bitcoin WIF private key decorruptor.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitcoin",
+    "private",
+    "key"
+  ],
+  "author": "Anders Brownworth",
+  "license": "MIT",
+  "dependencies": {
+    "bitcoinjs-lib": "^2.3.0"
+  }
+}
