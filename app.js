@@ -16,7 +16,7 @@ if (process.argv[2]) {
 var ary = pk.split('');
 
 console.log('Attempting to fix', pk);
-for (var x = 0; x < pk.length; x++) {
+for (var x = 1; x < pk.length; x++) {
   for (var y = 0; y < base58chars.length; y++) {
     var t = pk.split('');
     t[x] = base58chars[y];
